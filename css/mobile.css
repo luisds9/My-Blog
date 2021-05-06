@@ -1,0 +1,95 @@
+.header__icons-section {
+    display: flex;
+    justify-content: flex-start;
+}
+header nav {
+    place-items: center;
+}
+.header__nav--logo-container {
+    margin: 0;
+}
+.header__nav--logo-container img {
+    width: 120px;
+}
+.header__nav--profile-link {
+    margin: 0 70px 8px 0;
+}
+.home-main__text {
+    font-size: 20px;
+}
+.home-main__button {
+    width: 130px;
+    height: 40px;
+    margin-top: 40px;
+    font-weight: 500;
+    font-size: 14px;
+}
+.blogs-main__principal-news-container--background {
+    width: 100%;
+}
+.blogs-main__principal-news-container {
+    flex-direction: column;
+}
+.blogs-main__principal-news-container--left-section {
+    width: 100%;
+}
+.blogs-main__principal-news-container--img-container img {
+    width: 100%;
+}
+.blogs-main__principal-news-container--right-section {
+    width: 100%;
+}
+.grid-container {
+    max-width: 320px;
+    margin: unset;
+}
+.blogs-main__posts-container {
+    max-width: 320px;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+.blogs-main__posts-container--post {
+    max-width: 280px;
+    margin: 12px auto;
+}
+.main-blogpost__info-container article p {
+    text-align: left;
+}
+.main-blogpost__info-container article img {
+    width: 80%;
+    margin-left: 10px;
+}
+.contact-main-container {
+    padding: 0;
+}
+.contact-main-container__left-section, .contact-main-container__right-section {
+    flex-direction: column;
+}
+.contact-main-container img {
+    width: 60px;
+    height: 60px;
+}
+.contact-main-container__left-section div, .contact-main-container__right-section div {
+    text-align: center;
+}
+.contact-main-container a, .contact-main-container p {
+    margin: 8px 8px;
+    font-size: 12px;
+}
+.profile-main__top-section {
+    padding: 30px;
+}
+.top-section--profile-container {
+    flex-direction: column;
+}
+.profile-main__top-section img {
+    width: 220px;
+    height: 200px;
+    margin: 0;
+    border-radius: unset;
+}
+.projects-section__projects-container--project {
+    width: 280px;
+    margin: 12px auto;
+}

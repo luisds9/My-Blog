@@ -1,0 +1,9 @@
+.blogs-main__posts-container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: unset;
+    justify-items: center;
+}
+.blogs-main__posts-container--post {
+    width: 300px;
+    margin-bottom: 12px;
+}
